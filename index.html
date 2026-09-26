@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>NEXUS O2 | Business Portal</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- BACKGROUND LIGHTING -->
+    <div class="light light-one"></div>
+    <div class="light light-two"></div>
+    <div class="light light-three"></div>
+
+    <!-- LOGIN PAGE -->
+    <main id="loginPage" class="login-page">
+
+        <div class="login-card">
+
+            <div class="logo">
+                NEXUS <span>O2</span>
+            </div>
+
+            <p class="tagline">
+                CONNECT • CREATE • EXPAND
+            </p>
+
+            <div class="line"></div>
+
+            <h1>Business Portal</h1>
+
+            <p class="description">
+                Sign in to access the NEXUS O2 business system.
+            </p>
+
+            <div class="input-box">
+                <input
+                    type="text"
+                    id="username"
+                    placeholder="Username"
+                    autocomplete="username"
+                >
+            </div>
+
+            <div class="input-box">
+                <input
+                    type="password"
+                    id="password"
+                    placeholder="Password"
+                    autocomplete="current-password"
+                >
+            </div>
+
+            <button id="loginButton">
+                ENTER NEXUS O2
+            </button>
+
+            <p id="errorMessage"></p>
+
+        </div>
+
+    </main>
+
+
+    <!-- DASHBOARD -->
+    <main id="dashboardPage" class="dashboard hidden">
+
+        <nav class="navbar">
+
+            <div class="nav-logo">
+                NEXUS <span>O2</span>
+            </div>
+
+            <button id="logoutButton" class="logout">
+                LOG OUT
+            </button>
+
+        </nav>
+
+
+        <section class="hero">
+
+            <div class="hero-content">
+
+                <p class="small-title">
+                    NEXUS O2 BUSINESS SYSTEM
+                </p>
+
+                <h1>
+                    Welcome to the
+                    <span>NEXUS</span>
+                    <strong>O2</strong>
+                </h1>
+
+                <p id="welcomeText">
+                    Welcome to your business dashboard.
+                </p>
+
+            </div>
+
+            <div class="orb">
+
+                <div class="orb-inner">
+                    O2
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section class="cards">
+
+            <div class="business-card">
+                <div class="icon">◈</div>
+                <h2>Business</h2>
+                <p>
+                    Manage your NEXUS O2 business environment.
+                </p>
+                <button>OPEN</button>
+            </div>
+
+            <div class="business-card">
+                <div class="icon">◉</div>
+                <h2>Projects</h2>
+                <p>
+                    View and manage active business projects.
+                </p>
+                <button>OPEN</button>
+            </div>
+
+            <div class="business-card">
+                <div class="icon">◇</div>
+                <h2>Team</h2>
+                <p>
+                    Access your NEXUS O2 team workspace.
+                </p>
+                <button>OPEN</button>
+            </div>
+
+            <div class="business-card">
+                <div class="icon">◎</div>
+                <h2>Files</h2>
+                <p>
+                    Access important company documents.
+                </p>
+                <button>OPEN</button>
+            </div>
+
+        </section>
+
+
+        <footer>
+            <span>NEXUS O2</span>
+            <p>Powered by NEXUS O2 Technology</p>
+        </footer>
+
+    </main>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
